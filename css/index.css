@@ -47,12 +47,10 @@ table {
 	border-spacing: 0;
 }
 
-* {
+ * {
     box-sizing: border-box;
     margin: 0 auto;
-    
-
-}
+    }
 
 html, body {
     height: 100%;
@@ -77,28 +75,28 @@ p {
 }
 .top1 .navi1 a {
    
-    display: flex;
+   display: flex;
    flex-wrap: wrap;
    padding: 20px;
    justify-content: center;
    box-sizing:border-box;
+   align-items:center;
 }
 .navi1 {
     display: inline-block;
     justify-content: center;
-    align-items: flex-end;
+    align-content: flex-end
+    
 }
 
-
- header .top1 .navi1 {
+/*header*/
+ header .top1 .navi1  {
         margin-top: 40px; 
-        width: 610px;
         justify-content: space-between;
         display: flex;
         justify-content: center;
         margin: 40px;
-       
-    }
+      }
 
 
 /* Lambda image*/
@@ -288,4 +286,10 @@ footer nav a {
 }
 
 
-  
+.about .top1 .navi1 a{
+        margin-top: 40px; 
+        justify-content: space-between;
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+}
