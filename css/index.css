@@ -49,8 +49,18 @@ table {
 
  * {
     box-sizing: border-box;
+<<<<<<< HEAD
     margin: 0 auto;
     }
+=======
+}
+.header {
+    margin-top: 40px; 
+    width: 610px;
+    justify-content: space-between;
+    display: 
+}
+>>>>>>> 48355d39d2b6a1e479319cee31d4d4976e314c30
 
 html, body {
     height: 100%;
@@ -70,6 +80,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+<<<<<<< HEAD
     justify-content: center;
     
 }
@@ -113,6 +124,22 @@ p {
    flex-wrap: wrap;
    padding: 20px;
    justify-content: center;
+=======
+
+}
+.layer1 {
+    margin: 0
+}
+.header {
+    display: flex ;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 20px;
+}
+nav{
+    display: inline-block;
+    justify-content: space-evenly;
+>>>>>>> 48355d39d2b6a1e479319cee31d4d4976e314c30
 }
 
 .top-content {
@@ -126,15 +153,17 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 10 1%;
     padding-bottom: 20px;  
 }
 .middle-content .boxes .box1 {
     background: aqua;
 }
 .middle-content {
+    padding: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    box-sizing: border-box;
 }
 
 
@@ -287,6 +316,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+<<<<<<< HEAD
 body div section .container .boxes .box-a
 .box-b .box-c .box-d {
     display: flex;
@@ -303,3 +333,15 @@ body div section .container .boxes .box-a
     align-content: center;
     align-items: center;
 }
+=======
+.pic {
+    margin: 10px;
+}
+.text-container {
+    padding: 10px;
+    margin: 10px;
+}
+.level2 {
+    margin: 10px;
+}
+>>>>>>> 48355d39d2b6a1e479319cee31d4d4976e314c30
