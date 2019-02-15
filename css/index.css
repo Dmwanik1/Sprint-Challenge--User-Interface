@@ -82,6 +82,23 @@ h1, h2, h3, h4, h5 {
     flex-wrap: wrap;
     justify-content: space-between;
     line-height: 1.3;
+}
+.container1 .boxes {
+    padding: 20px;
+    border: 1px solid black;
+    width: 420px;
+    background: whitesmoke;
+    margin: 20px 0;
+    display: block;
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 .header {
     width: 100%;
@@ -287,6 +304,8 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
 <<<<<<< HEAD
 body div section .container .boxes .box-a
 .box-b .box-c .box-d {
