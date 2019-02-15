@@ -161,7 +161,7 @@ p {
     justify-content: center;
 }
 .middle-content .boxes .box1 {
-    background:teal;
+    background: red;
     width: 12.5%;
     height: 100px;
     display: flex;
@@ -176,15 +176,18 @@ p {
     align-items: center;
     justify-content: center;
     margin: 20px 2.5%;
+
 }
 .middle-content .boxes .box3 {
-    background:cadetblue;
+    background:black;
     width: 12.5%;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 20px 2.5%;
+    color: white;
+    
 }
 .middle-content .boxes .box4 {
     background:coral;
@@ -223,7 +226,7 @@ p {
     margin: 20px 2.5%;
 }
 .middle-content .boxes .box8 {
-    background:hotpink;
+    background:pink;
     width: 12.5%;
     height: 100px;
     display: flex;
@@ -284,12 +287,19 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+body div section .container .boxes .box-a
+.box-b .box-c .box-d {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    marnin: 10 px;
 
-
-.about .top1 .navi1 a{
-        margin-top: 40px; 
-        justify-content: space-between;
-        display: flex;
-        justify-content: center;
-        margin: 40px;
+}
+.buttons {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+    align-content: center;
+    align-items: center;
 }
