@@ -49,14 +49,14 @@ table {
 
  * {
     box-sizing: border-box;
-    margin: 0 auto;
+    
     }
-}
+
 .header {
-    margin-top: 40px; 
-    width: 610px;
-    justify-content: space-between;
-    display: 
+    /*margin-top: 40px; */
+    width: 100%;
+    /*justify-content:space-evenly;*/
+    display: flex;
 }
 
 html, body {
@@ -70,13 +70,11 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
-p {
-    line-height: 1.4;
-}
+
 
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin:  auto;
 
 }
 .layer1 {
@@ -87,6 +85,13 @@ p {
     justify-content: space-evenly;
     margin: 0 auto;
     padding: 20px;
+}
+.clicking {
+    margin-top: 40px; 
+    width: 610px;
+    justify-content: space-between;
+    display: flex;
+    
 }
 nav{
     display: inline-block;
